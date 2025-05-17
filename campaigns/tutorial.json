@@ -1,0 +1,50 @@
+{
+	"Name": "Tutorial",
+	"Description": "Learn how to play 0 A.D.",
+	"Levels": {
+		"introduction": {
+			"Name": "Introductory Tutorial",
+			"Map": "tutorials/introductory_tutorial.xml",
+			"MapType": "scenario",
+			"Description": "This is a basic tutorial to get you started playing 0 A.D.",
+			"Preview": "session/icons/mappreview/Introductory_Tutorial.png"
+		},
+		"eco_walkthrough": {
+			"Name": "Economy Walkthrough",
+			"Map": "campaign/starting_economy_walkthrough.xml",
+			"MapType": "scenario",
+			"Description": "This map will give a rough guide for starting the game effectively.  Early in the game the most important thing is to gather resources as fast as possible so you are able to build enough troops later. Warning: This is very fast at the start, be prepared to run through the initial bit several times.",
+			"Requires": "introduction"
+		},
+		"battle_formations": {
+			"Name": "Battle formations",
+			"Map": "campaign/formation_tutorial.xml",
+			"MapType": "scenario",
+			"Description": "Teaches you about formations",
+			"Requires": ""
+		},
+		"ranged_battle1": {
+			"Name": "Archer skirmish !",
+			"Map": "campaign/ranged_battle1.xml",
+			"MapType": "scenario",
+			"Description": "Teaches you about pure ranged fights",
+			"Requires": ""
+		},
+		"pike_dance": {
+			"Name": "Dancing Lesson 1",
+			"Map": "campaign/pike_dance.xml",
+			"MapType": "scenario",
+			"Description": "Teaches you how to dance with pikeman",
+			"Requires": ""
+		},
+		"snipe1": {
+			"Name": "Sniping Lesson 1",
+			"Map": "campaign/snipe2.xml",
+			"MapType": "scenario",
+			"Description": "Teaches you how to snipe",
+			"Requires": ""
+		}
+	},
+	"Order": ["introduction", "eco_walkthrough", "battle_formations", "Archer skirmish", "pike_dance", "snipe1"],
+	"ShowUnavailable": true
+}

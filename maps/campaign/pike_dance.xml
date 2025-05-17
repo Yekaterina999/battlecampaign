@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="1.03162" g="0.99521" b="0.865752"/>
+		<SunElevation angle="0.7"/>
+		<SunRotation angle="-0.909"/>
+		<AmbientColor r="0.364706" g="0.376471" b="0.419608"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.8"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>19.9</Height>
+				<Waviness>8</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>1</Saturation>
+			<Bloom>0.2</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="164.726" y="65.9435" z="254.125"/>
+		<Rotation angle="-0.344783"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": false,
+  "CircularMap": true,
+  "Description": "A basic test of the random map generator - not playable.",
+  "Keywords": [
+    "demo"
+  ],
+  "LockTeams": false,
+  "Name": "New RMS Test",
+  "Nomad": false,
+  "PlayerData": [
+    null,
+    {
+      "Civ": "han"
+    },
+    {
+      "Civ": "cart"
+    }
+  ],
+  "Preview": "",
+  "RevealMap": true,
+  "Script": "new_rms_test.js",
+  "Seed": 0,
+  "Size": 128,
+  "VictoryConditions": [
+    "conquest"
+  ],
+  "mapType": "random"
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="181">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="205.54575" z="362.43888"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="15271"/>
+		</Entity>
+		<Entity uid="182">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="207.68406" z="360.09202"/>
+			<Orientation y="2.6224"/>
+			<Actor seed="45667"/>
+		</Entity>
+		<Entity uid="183">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="211.5889" z="353.24299"/>
+			<Orientation y="2.70585"/>
+			<Actor seed="48889"/>
+		</Entity>
+		<Entity uid="184">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="214.86252" z="346.6608"/>
+			<Orientation y="2.59697"/>
+			<Actor seed="48889"/>
+		</Entity>
+		<Entity uid="185">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="217.25657" z="342.60645"/>
+			<Orientation y="2.60344"/>
+			<Actor seed="48889"/>
+		</Entity>
+		<Entity uid="186">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="219.34797" z="339.23966"/>
+			<Orientation y="2.55893"/>
+			<Actor seed="48889"/>
+		</Entity>
+		<Entity uid="187">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="225.42246" z="330.02176"/>
+			<Orientation y="2.5229"/>
+			<Actor seed="48889"/>
+		</Entity>
+		<Entity uid="188">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="226.98938" z="327.79264"/>
+			<Orientation y="-0.54622"/>
+			<Actor seed="62803"/>
+		</Entity>
+		<Entity uid="189">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="221.50068" z="337.20344"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62803"/>
+		</Entity>
+		<Entity uid="190">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="220.36112" z="340.08396"/>
+			<Orientation y="-0.23012"/>
+			<Actor seed="62803"/>
+		</Entity>
+		<Entity uid="191">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="217.70173" z="345.91294"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62803"/>
+		</Entity>
+		<Entity uid="192">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="223.65671" z="329.19748"/>
+			<Orientation y="-0.6074"/>
+			<Actor seed="62803"/>
+		</Entity>
+		<Entity uid="193">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="221.106" z="333.67838"/>
+			<Orientation y="-0.78962"/>
+			<Actor seed="27101"/>
+		</Entity>
+		<Entity uid="194">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="216.41108" z="338.90519"/>
+			<Orientation y="-1.07117"/>
+			<Actor seed="27101"/>
+		</Entity>
+		<Entity uid="195">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="209.46811" z="344.81778"/>
+			<Orientation y="-0.30146"/>
+			<Actor seed="37601"/>
+		</Entity>
+		<Entity uid="196">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="203.93677" z="363.07502"/>
+			<Orientation y="2.59482"/>
+			<Actor seed="37601"/>
+		</Entity>
+		<Entity uid="197">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="218.89509" z="338.9521"/>
+			<Orientation y="3.02126"/>
+			<Actor seed="37601"/>
+		</Entity>
+		<Entity uid="198">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="224.02942" z="326.14466"/>
+			<Orientation y="-0.42756"/>
+			<Actor seed="37601"/>
+		</Entity>
+		<Entity uid="199">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="218.82496" z="335.79142"/>
+			<Orientation y="-0.59792"/>
+			<Actor seed="45073"/>
+		</Entity>
+		<Entity uid="200">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="215.01978" z="345.06266"/>
+			<Orientation y="-0.81368"/>
+			<Actor seed="45073"/>
+		</Entity>
+		<Entity uid="201">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="207.16568" z="352.33393"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45073"/>
+		</Entity>
+		<Entity uid="202">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="205.46531" z="353.26206"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45073"/>
+		</Entity>
+		<Entity uid="203">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="211.08124" z="346.69153"/>
+			<Orientation y="-0.25652"/>
+			<Actor seed="45073"/>
+		</Entity>
+		<Entity uid="204">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="209.36399" z="354.63898"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="43903"/>
+		</Entity>
+		<Entity uid="205">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="209.80362" z="350.33591"/>
+			<Orientation y="2.89377"/>
+			<Actor seed="43903"/>
+		</Entity>
+		<Entity uid="206">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="215.60044" z="332.61988"/>
+			<Orientation y="2.7256"/>
+			<Actor seed="43903"/>
+		</Entity>
+		<Entity uid="207">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>2</Player>
+			<Position x="219.39066" z="327.2454"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34356"/>
+		</Entity>
+		<Entity uid="208">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="128.326" z="277.51191"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="34356"/>
+		</Entity>
+		<Entity uid="209">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="124.53574" z="282.88639"/>
+			<Orientation y="2.72561"/>
+			<Actor seed="43903"/>
+		</Entity>
+		<Entity uid="210">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="118.73893" z="300.60242"/>
+			<Orientation y="2.89377"/>
+			<Actor seed="43903"/>
+		</Entity>
+		<Entity uid="211">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="118.2993" z="304.9055"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="43903"/>
+		</Entity>
+		<Entity uid="212">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="120.01658" z="296.95804"/>
+			<Orientation y="-0.25652"/>
+			<Actor seed="45073"/>
+		</Entity>
+		<Entity uid="213">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="114.40064" z="303.52857"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="45073"/>
+		</Entity>
+		<Entity uid="214">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="112.65653" z="305.79392"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="45073"/>
+		</Entity>
+		<Entity uid="215">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="123.95508" z="295.32917"/>
+			<Orientation y="-0.81368"/>
+			<Actor seed="45073"/>
+		</Entity>
+		<Entity uid="216">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="127.76029" z="286.05793"/>
+			<Orientation y="-0.59792"/>
+			<Actor seed="45073"/>
+		</Entity>
+		<Entity uid="217">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="132.9647" z="276.41117"/>
+			<Orientation y="-0.42757"/>
+			<Actor seed="37601"/>
+		</Entity>
+		<Entity uid="218">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="127.83042" z="289.2186"/>
+			<Orientation y="3.02126"/>
+			<Actor seed="37601"/>
+		</Entity>
+		<Entity uid="220">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="118.40342" z="295.0843"/>
+			<Orientation y="-0.30146"/>
+			<Actor seed="37601"/>
+		</Entity>
+		<Entity uid="221">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="125.34641" z="289.1717"/>
+			<Orientation y="-1.07117"/>
+			<Actor seed="27101"/>
+		</Entity>
+		<Entity uid="222">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="130.0413" z="283.9449"/>
+			<Orientation y="-0.78963"/>
+			<Actor seed="27101"/>
+		</Entity>
+		<Entity uid="223">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="132.59198" z="279.464"/>
+			<Orientation y="-0.60741"/>
+			<Actor seed="62803"/>
+		</Entity>
+		<Entity uid="224">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="126.63706" z="296.17945"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="62803"/>
+		</Entity>
+		<Entity uid="225">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="129.29642" z="290.35047"/>
+			<Orientation y="-0.23012"/>
+			<Actor seed="62803"/>
+		</Entity>
+		<Entity uid="226">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="130.43601" z="287.46995"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="62803"/>
+		</Entity>
+		<Entity uid="227">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="135.92466" z="278.05915"/>
+			<Orientation y="-0.54622"/>
+			<Actor seed="62803"/>
+		</Entity>
+		<Entity uid="228">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="134.35773" z="280.28827"/>
+			<Orientation y="2.52291"/>
+			<Actor seed="48889"/>
+		</Entity>
+		<Entity uid="229">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="128.2833" z="289.50617"/>
+			<Orientation y="2.55893"/>
+			<Actor seed="48889"/>
+		</Entity>
+		<Entity uid="230">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="126.1919" z="292.87296"/>
+			<Orientation y="2.60344"/>
+			<Actor seed="48889"/>
+		</Entity>
+		<Entity uid="231">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="123.79783" z="296.92731"/>
+			<Orientation y="2.59697"/>
+			<Actor seed="48889"/>
+		</Entity>
+		<Entity uid="232">
+			<Template>units/athen/infantry_archer_e</Template>
+			<Player>1</Player>
+			<Position x="120.52421" z="303.5095"/>
+			<Orientation y="2.70586"/>
+			<Actor seed="48889"/>
+		</Entity>
+		<Entity uid="235">
+			<Template>units/ptol/champion_infantry_pikeman</Template>
+			<Player>1</Player>
+			<Position x="136.60117" z="297.17515"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62934"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="1.03162" g="0.99521" b="0.865752"/>
+		<SunElevation angle="0.7"/>
+		<SunRotation angle="-0.909"/>
+		<AmbientColor r="0.364706" g="0.376471" b="0.419608"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.8"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.298039" g="0.34902" b="0.698039"/>
+				<Tint r="0.278431" g="0.298039" b="0.588235"/>
+				<Height>19.9</Height>
+				<Waviness>8</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>1</Saturation>
+			<Bloom>0.2</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="181.912" y="102.314" z="99.0955"/>
+		<Rotation angle="0.239047"/>
+		<Declination angle="0.610866"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "AllyView": true,
+  "CircularMap": true,
+  "Description": "A basic test of the random map generator - not playable.",
+  "Keywords": [
+    "demo"
+  ],
+  "LockTeams": true,
+  "Name": "New RMS Test",
+  "Nomad": false,
+  "PlayerData": [
+    null,
+    {
+      "Name": "Player 1"
+    },
+    {
+      "Name": "Player 2"
+    }
+  ],
+  "Preview": "",
+  "RevealMap": true,
+  "Script": "new_rms_test.js",
+  "Seed": 0,
+  "Size": 128,
+  "VictoryConditions": [
+    "conquest"
+  ],
+  "mapType": "random"
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="231">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="301.18012" z="236.34415"/>
+			<Orientation y="-2.5794"/>
+			<Actor seed="17788"/>
+		</Entity>
+		<Entity uid="232">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="298.1951" z="230.15668"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="64273"/>
+		</Entity>
+		<Entity uid="233">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="298.05491" z="223.21842"/>
+			<Orientation y="-3.1356"/>
+			<Actor seed="62837"/>
+		</Entity>
+		<Entity uid="234">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="298.46436" z="218.97318"/>
+			<Orientation y="3.10697"/>
+			<Actor seed="62837"/>
+		</Entity>
+		<Entity uid="235">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="298.7103" z="214.099"/>
+			<Orientation y="3.04827"/>
+			<Actor seed="62837"/>
+		</Entity>
+		<Entity uid="236">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="301.31711" z="219.39194"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62837"/>
+		</Entity>
+		<Entity uid="237">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="301.59089" z="225.03061"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46842"/>
+		</Entity>
+		<Entity uid="238">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="301.35975" z="218.05884"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46842"/>
+		</Entity>
+		<Entity uid="239">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="300.85065" z="224.09012"/>
+			<Orientation y="-0.22602"/>
+			<Actor seed="46842"/>
+		</Entity>
+		<Entity uid="240">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="299.70652" z="229.33942"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="46842"/>
+		</Entity>
+		<Entity uid="241">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="299.46326" z="219.63605"/>
+			<Orientation y="3.1251"/>
+			<Actor seed="11759"/>
+		</Entity>
+		<Entity uid="242">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="300.16193" z="211.90818"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="11759"/>
+		</Entity>
+		<Entity uid="243">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="300.57782" z="214.7598"/>
+			<Orientation y="-0.01816"/>
+			<Actor seed="11759"/>
+		</Entity>
+		<Entity uid="244">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="300.60535" z="217.99933"/>
+			<Orientation y="3.06685"/>
+			<Actor seed="11759"/>
+		</Entity>
+		<Entity uid="245">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="301.19745" z="214.80866"/>
+			<Orientation y="-0.0233"/>
+			<Actor seed="55164"/>
+		</Entity>
+		<Entity uid="246">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="300.80988" z="229.18018"/>
+			<Orientation y="-3.1041"/>
+			<Actor seed="55164"/>
+		</Entity>
+		<Entity uid="247">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="300.41114" z="218.55121"/>
+			<Orientation y="-3.04177"/>
+			<Actor seed="55164"/>
+		</Entity>
+		<Entity uid="248">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="299.49363" z="209.39106"/>
+			<Orientation y="0.27088"/>
+			<Actor seed="55164"/>
+		</Entity>
+		<Entity uid="249">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="302.41324" z="221.26594"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52940"/>
+		</Entity>
+		<Entity uid="250">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="303.31196" z="226.29551"/>
+			<Orientation y="2.98629"/>
+			<Actor seed="52940"/>
+		</Entity>
+		<Entity uid="251">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="304.61817" z="216.30485"/>
+			<Orientation y="-3.0769"/>
+			<Actor seed="52940"/>
+		</Entity>
+		<Entity uid="252">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="304.38111" z="212.72281"/>
+			<Orientation y="-0.11074"/>
+			<Actor seed="52940"/>
+		</Entity>
+		<Entity uid="253">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="302.7378" z="208.19117"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="52940"/>
+		</Entity>
+		<Entity uid="254">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="302.71012" z="211.6338"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33134"/>
+		</Entity>
+		<Entity uid="255">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="303.06934" z="215.12906"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48643"/>
+		</Entity>
+		<Entity uid="256">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="304.1233" z="220.3979"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48643"/>
+		</Entity>
+		<Entity uid="257">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="304.71778" z="227.56611"/>
+			<Orientation y="0.02642"/>
+			<Actor seed="48643"/>
+		</Entity>
+		<Entity uid="258">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="303.62958" z="236.85752"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48643"/>
+		</Entity>
+		<Entity uid="259">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="306.87534" z="225.44745"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49269"/>
+		</Entity>
+		<Entity uid="260">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="306.6243" z="220.20093"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="23490"/>
+		</Entity>
+		<Entity uid="261">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>2</Player>
+			<Position x="306.81244" z="214.7381"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62651"/>
+		</Entity>
+		<Entity uid="262">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="184.30521" z="213.95551"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="62651"/>
+		</Entity>
+		<Entity uid="265">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="181.12235" z="236.07493"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="48643"/>
+		</Entity>
+		<Entity uid="266">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="182.21055" z="226.78351"/>
+			<Orientation y="0.02642"/>
+			<Actor seed="48643"/>
+		</Entity>
+		<Entity uid="267">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="179.3938" z="222.11811"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="48643"/>
+		</Entity>
+		<Entity uid="268">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="180.56211" z="214.34647"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="48643"/>
+		</Entity>
+		<Entity uid="269">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="180.20289" z="210.8512"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="33134"/>
+		</Entity>
+		<Entity uid="270">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="180.23057" z="207.40857"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="52940"/>
+		</Entity>
+		<Entity uid="271">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="181.87388" z="211.94022"/>
+			<Orientation y="-0.11074"/>
+			<Actor seed="52940"/>
+		</Entity>
+		<Entity uid="272">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="182.11094" z="215.52225"/>
+			<Orientation y="-3.07691"/>
+			<Actor seed="52940"/>
+		</Entity>
+		<Entity uid="273">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="180.80472" z="225.51291"/>
+			<Orientation y="2.9863"/>
+			<Actor seed="52940"/>
+		</Entity>
+		<Entity uid="274">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="179.90601" z="220.48334"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="52940"/>
+		</Entity>
+		<Entity uid="275">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="176.9864" z="208.60846"/>
+			<Orientation y="0.27088"/>
+			<Actor seed="55164"/>
+		</Entity>
+		<Entity uid="276">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="177.90391" z="217.76862"/>
+			<Orientation y="-3.04177"/>
+			<Actor seed="55164"/>
+		</Entity>
+		<Entity uid="277">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="178.30265" z="228.39762"/>
+			<Orientation y="-3.1041"/>
+			<Actor seed="55164"/>
+		</Entity>
+		<Entity uid="278">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="178.69022" z="214.0261"/>
+			<Orientation y="-0.02331"/>
+			<Actor seed="55164"/>
+		</Entity>
+		<Entity uid="279">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="178.09812" z="217.21674"/>
+			<Orientation y="3.06685"/>
+			<Actor seed="11759"/>
+		</Entity>
+		<Entity uid="280">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="178.0706" z="213.97724"/>
+			<Orientation y="-0.01816"/>
+			<Actor seed="11759"/>
+		</Entity>
+		<Entity uid="281">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="177.6547" z="211.12558"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="11759"/>
+		</Entity>
+		<Entity uid="282">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="176.95603" z="218.85346"/>
+			<Orientation y="3.12511"/>
+			<Actor seed="11759"/>
+		</Entity>
+		<Entity uid="283">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="177.19928" z="228.55686"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="46842"/>
+		</Entity>
+		<Entity uid="284">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="178.34342" z="223.30753"/>
+			<Orientation y="-0.22602"/>
+			<Actor seed="46842"/>
+		</Entity>
+		<Entity uid="285">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="178.85251" z="217.27625"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="46842"/>
+		</Entity>
+		<Entity uid="286">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="179.08365" z="224.24802"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="46842"/>
+		</Entity>
+		<Entity uid="287">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="178.80988" z="218.60935"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="62837"/>
+		</Entity>
+		<Entity uid="288">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="176.20307" z="213.31641"/>
+			<Orientation y="3.04827"/>
+			<Actor seed="62837"/>
+		</Entity>
+		<Entity uid="289">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="175.95713" z="218.19062"/>
+			<Orientation y="3.10697"/>
+			<Actor seed="62837"/>
+		</Entity>
+		<Entity uid="290">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="175.54767" z="222.43586"/>
+			<Orientation y="-3.13561"/>
+			<Actor seed="62837"/>
+		</Entity>
+		<Entity uid="291">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="175.68787" z="229.37409"/>
+			<Orientation y="2.35622"/>
+			<Actor seed="64273"/>
+		</Entity>
+		<Entity uid="292">
+			<Template>units/cart/infantry_archer_b</Template>
+			<Player>1</Player>
+			<Position x="178.67289" z="235.56156"/>
+			<Orientation y="-2.57941"/>
+			<Actor seed="17788"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

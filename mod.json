@@ -1,0 +1,8 @@
+{
+	"name": "newcampaigns",
+	"label": "New campaigns",
+	"version": "1.0.0",
+	"url": "",
+	"description": "Another campaign to teach players to fight",
+	"dependencies": ["0ad>=0.26.0"]
+}
