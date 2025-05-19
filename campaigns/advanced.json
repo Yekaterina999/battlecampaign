@@ -1,0 +1,36 @@
+{
+	"Name": "Advanced skills",
+	"Description": "Path to becoming a good player in the multiplayer lobby",
+	"Levels": {
+		"battle_formations": {
+			"Name": "Formation Lesson 1 - Frontal Attack",
+			"Map": "campaign/formation_tutorial.xml",
+			"MapType": "scenario",
+			"Description": "Teaches you about how to fight effectively in large scale battles, using frontal attack formations such as closed order. ",
+			"Requires": ""
+		},
+		"ranged_battle1": {
+			"Name": "Formation Lesson 2 - Archer Skirmish",
+			"Map": "campaign/ranged_battle1.xml",
+			"MapType": "scenario",
+			"Description": "Win a disadvantaged archer fight with skirmish formation",
+			"Requires": ""
+		},
+		"pike_dance": {
+			"Name": "Dancing Lesson 1 - Melee dance",
+			"Map": "campaign/pike_dance.xml",
+			"MapType": "scenario",
+			"Description": "Learn to abosorb damage and dodge arrows by dancing a pikeman",
+			"Requires": ""
+		},
+		"snipe1": {
+			"Name": "Sniping Lesson 1 - Group snipe",
+			"Map": "campaign/snipe2.xml",
+			"MapType": "scenario",
+			"Description": "Teaches you the crucial technique of group sniping. Focus fire on ranged units and ignore the melee",
+			"Requires": ""
+		}
+	},
+	"Order": ["battle_formations", "Archer skirmish", "pike_dance", "snipe1"],
+	"ShowUnavailable": true
+}

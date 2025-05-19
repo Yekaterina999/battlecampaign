@@ -62,6 +62,11 @@
   "Script": "new_rms_test.js",
   "Seed": 0,
   "Size": 128,
+  "TriggerScripts": [
+  "scripts/TriggerHelper.js",
+  "scripts/Tutorial.js",
+  "campaign/snipe2.js"
+  ],
   "VictoryConditions": [
     "conquest"
   ],
